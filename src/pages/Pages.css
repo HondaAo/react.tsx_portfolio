@@ -1,0 +1,269 @@
+.home-page{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 90px;
+    height: 70vh;
+}
+.home-page > h1{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.home-page > p {
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.btn{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.contact-btn{
+    background-color: red;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    margin-right: 30px;
+}
+.contact-btn > span {
+    margin-left: 16px;
+    font-weight: 900;
+}
+.about-btn{
+    background-color: #060b26;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+}
+.about-btn > span {
+    margin-left: 16px;
+    font-weight: 900;
+}
+.icon{
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #060b26;
+}
+.about-page{
+    height: 90vh;
+    display: flex;
+}
+.about-left{
+    width: 60%;
+    height: inherit;
+    background-color: #f2f2f2;
+}
+.about-left-content{
+    width: 80%;
+    margin: 100px auto;
+    line-height: 30px;
+}
+.about-left-content > p{
+  margin-top: 30px;
+  font-weight: 200;
+  text-align: left;
+}
+.about-right{
+    width: 40%;
+}
+.about-right > img{
+    width: 100%;
+    height: 90vh;
+}
+.learn-more{
+    padding: 13px 25px;
+    margin-top: 30px;
+    text-align: left;
+}
+.footer{
+    height: 120px;
+}
+.skills{
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.skills-left{
+   padding-top: 3%;
+   padding-left: 5%;
+}
+.skills-left > h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.skills-left > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 12px;
+}
+.skills-left > button {
+    font-size: 16px;
+    line-height: .875;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid #060b26;
+    color: #060b26;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: transparent;
+}
+.skills-right{
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+    padding-left: 7%;
+}
+.skills-circle {
+    width: 90%;
+    border-radius: 100%;
+    border: 5px solid #f2f2f2;
+}
+.skills-icons{
+    width: 120%;
+    margin-left: -46px;
+}
+.skills-icon {
+    font-size: 60px;
+    margin: 15px;
+    padding: 3%;
+    background: black;
+    color: white;
+    border-radius: 100%;
+}
+.guide-app{
+    height: 60vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex; 
+}
+.guide-left{
+    width: 47%;
+    /* padding: 3%; */
+    margin-right: 3%;
+    background-image: url('../component/photo.png');
+    /* background-size: cover; */
+    height: 55vh;
+    background-size: cover;
+}
+.guide-right{
+    width: 50%;
+    padding: 3%;
+}
+.guide-right > h2 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.guide-right > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 12px;
+}
+.guide-right > button {
+    font-size: 16px;
+    line-height: .875;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid #060b26;
+    color: #060b26;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: transparent;
+}
+.aboutme{
+    height: 70vh;
+    background: #060b26;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+}
+.aboutme > h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.aboutme > p {
+    font-weight: 200;
+    font-size: 22px;
+}
+.contact-page{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 50vh;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-left{
+    width: 50%;
+    padding: 3%;
+}
+.contact-card{
+    padding: 7%;
+    width: 90%;
+    box-shadow: 0px 8px 16px -2px rgba(10,10,10,0.1), 0px 0px 0px 2px rgba(10,10,10,0.02);
+    position: relative;
+    z-index: 10;
+    background-color: white;
+}
+.field{
+    margin-top: 30px;
+}
+.field > label {
+    margin-bottom: 10px;
+}
+.field > input {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+}
+.field > textarea {
+    width: 100%;
+    height: 150px;
+}
+.contact-card > button {
+    width: 100%;
+    background-color: #060b26;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-top: 15px;
+}
+.contact-footer{
+    background-color: #060b26;
+    color: white;
+    height: 60vh;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 5%;
+    padding-top: 7%;
+}
+.contact-left > p {
+    margin-top: 20px;
+}
+.contact-left > ul{
+   margin-top: 40px;
+   height: 25vh;
+   justify-content: start;
+}
+.info-li{
+    margin: 10px 3px;
+}
+.contact-footer > h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+.contact-footer > p {
+    margin-top: 15px;
+    font-weight: 200;
+}
